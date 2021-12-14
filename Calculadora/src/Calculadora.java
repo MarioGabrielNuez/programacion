@@ -6,19 +6,19 @@ import javax.swing.*;
  */
 
 /**
- * <p>La clase "Calculadora" contiene las funciones necesarias para
+ * La clase "Calculadora" contiene las funciones necesarias para 
  * el correcto funcionamiento del programa realizado para
  * la práctica por parejas requerida para la evaluación 
  * de la asignatura "Programación" en primer trimestre de Desarrollo de 
- * Aplicaciones Multiplataforma.</p>
- * <br>
- * <p>Enunciado de la práctica: [<a href="https://sway.office.com/MgXv1dUBEET0Vn5z?ref=Link">https://sway.office.com/MgXv1dUBEET0Vn5z?ref=Link</a>]</p>
- * <br>
- * <p>Los ficheros del proyecto generados por Eclipse, se encuentran en el 
- * repositorio de GitHub [<a href="https://github.com/MarioGabrielMaG/SuperCalc/"> https://github.com/MarioGabrielMaG/SuperCalc/ </a>].</p>
- * <br>
- * <p>Esta clase está pensada para usarla en su totalidad, las funciones aqui desarrolladas
- * son privadas y no podrán ser llamadas desde otras clases externas.</p>
+ * Aplicaciones Multiplataforma.
+ * 
+ * Enunciado de la práctica: [https://sway.office.com/MgXv1dUBEET0Vn5z?ref=Link]
+ * 
+ * Los ficheros del proyecto generados por Eclipse, se encuentran en el 
+ * repositorio de GitHub [https://github.com/MarioGabrielMaG/SuperCalc/].
+ * 
+ * Esta clase está pensada para usarla en su totalidad, las funciones aqui desarrolladas
+ * son privadas y no podrán ser llamadas desde otras clases externas.
  * 
  * @author Mario Gabriel Núñez Alcázar de Velasco
  * @author Juan Álvarez
