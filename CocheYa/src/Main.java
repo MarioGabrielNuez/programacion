@@ -32,9 +32,8 @@ public class Main {
 			 */
 			System.out.println("Coche Ya -- HEGEVE (Herramienta de Gestión y Venta)");
 			System.out.println("*************************************************");
-			System.out.println("1 - Gestionar salida / Nuevo arrendamiento");
-			System.out.println("2 - Gestionar entrada / Cobrar arrendamiento");
-			System.out.println("3 - Salir");
+			System.out.println("1 - Nuevo arrendamiento");
+			System.out.println("2 - Salir");
 			System.out.println("*************************************************");
 			System.out.print("> ");
 			byte sel = inp.nextByte(); // recogemos la selección del usuario
@@ -43,36 +42,33 @@ public class Main {
 			 * identificamos la selección realizada en el menú
 			 */
 			switch (sel) {
-			case 1: 
-				System.out.println("Selecciona un vehiculo de la siguiente lista");
-				System.out.println("*************************************************");
-				System.out.println("Numero de Vehiculo -- Matricula -- Marca -- Número de plazas -- €/Hora");
-				System.out.println(coche1.getIdentif() + " .- " + coche1.getMatricula() + " -- " + coche1.getMarca() + " -- " + coche1.getNumPlazas() + " -- " + coche1.getPrecHora());
-				System.out.println(coche2.getIdentif() + " .- " + coche2.getMatricula() + " -- " + coche2.getMarca() + " -- " + coche2.getNumPlazas() + " -- " + coche2.getPrecHora());
-				System.out.println(coche3.getIdentif() + " .- " + coche3.getMatricula() + " -- " + coche3.getMarca() + " -- " + coche3.getNumPlazas() + " -- " + coche3.getPrecHora());
-				System.out.println(coche4.getIdentif() + " .- " + coche4.getMatricula() + " -- " + coche4.getMarca() + " -- " + coche4.getNumPlazas() + " -- " + coche4.getPrecHora());
-				System.out.println("*************************************************");
-				System.out.print("> ");
-				
-				switch (inp.next()) {
-				case "1":
-					AlqCar(coche1);
+				case 1: 
+					System.out.println("Selecciona un vehiculo de la siguiente lista");
+					System.out.println("*************************************************");
+					System.out.println("Numero de Vehiculo -- Matricula -- Marca -- Número de plazas -- €/Hora");
+					listCar(coche1);
+					listCar(coche2);
+					listCar(coche3);
+					listCar(coche4);
+					System.out.println("*************************************************");
+					System.out.print("> ");
+					
+					switch (inp.next()) {
+						case "1":
+							alqCar(coche1);
+							break;
+						/*a medias*/
+						default:
+							break;
+					}
+					
 					break;
-
+				case 2:
+					ej = false;
+					break;
 				default:
+					System.out.println("Opcion no valida");
 					break;
-				}
-				
-				break;
-			case 2: 
-				
-				break;
-			case 3:
-				ej = false;
-				break;
-			default:
-				System.out.println("Opcion no valida");
-				break;
 			}
 		} while (ej);
 	}
@@ -81,8 +77,14 @@ public class Main {
 	 * Función para gestionar el alquiler del coche seleccionado
 	 * @param nextInt - Selección realizada por el usuario
 	 */
-	private static void AlqCar(Car c) {
-		
-		
+	private static void alqCar(Car c) {
+		System.out.println("> especifica el tiempo de alquiler");
+		System.out.print("> ");
+		double tmp = ExtFunc.suspc(inp.nextDouble());
+		/*a medias*/
+	}
+	
+	private static void listCar(Car c) {
+		System.out.println(c.getIdentif() + " .- " + c.getMatricula() + " -- " + c.getMarca() + " -- " + c.getNumPlazas() + " -- " + c.getPrecHora());
 	}
 }
