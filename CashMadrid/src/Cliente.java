@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Objeto que representa al cliente
  */
@@ -9,13 +11,12 @@
 public class Cliente {
 	private String nombre; // Nombre del cliente
 	private String nif; // NIF del cliente
-	private String fechaInicio; // Fecha de inicio
+	private Date fechaInicio; // Fecha de inicio
 
 	/**
 	 * Constructor Vacío 
 	 */
 	public Cliente() {
-	
 	}
 
 	/**
@@ -24,10 +25,10 @@ public class Cliente {
 	 * @param nif
 	 * @param fechaInicio
 	 */
-	public Cliente(String nombre, String nif, String fechaInicio) {
+	public Cliente(String nombre, String nif) {
 		this.nombre = nombre;
 		this.nif = nif;
-		this.fechaInicio = fechaInicio;
+		this.fechaInicio = new Date();
 	}
 
 	/**
@@ -61,14 +62,19 @@ public class Cliente {
 	/**
 	 * @return the fechaInicio
 	 */
-	public String getFechaInicio() {
+	public Date getFechaInicio() {
 		return fechaInicio;
 	}
 
 	/**
 	 * @param fechaInicio the fechaInicio to set
 	 */
-	public void setFechaInicio(String fechaInicio) {
+	public void setFechaInicio(Date fechaInicio) {
 		this.fechaInicio = fechaInicio;
+	}
+
+	@Override
+	public String toString() {
+		return "Cliente [nombre=" + nombre + ", nif=" + nif + ", fechaInicio=" + fechaInicio + "]";
 	}
 }

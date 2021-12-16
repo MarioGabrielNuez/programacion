@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="ExtFunc"/>
+    <fullyQualifiedTypeName name="Trabajador"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.zip.DataFormatException"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="Transferencia"/>
+    <fullyQualifiedTypeName name="Cliente"/>
 </qualifiedTypeNameHistroy>

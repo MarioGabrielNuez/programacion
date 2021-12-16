@@ -5,7 +5,7 @@ import java.util.*;
  */
 
 /**
- * @author mario
+ * @author Mario Gabriel Núñez Alcázar de Velasco
  *
  */
 public class Trabajador {
@@ -15,11 +15,10 @@ public class Trabajador {
 	private Departamento departamento; // departamento del Trabajador
 	private Date fechaInicio; // fecha de inicio de contrato
 	
-	/**
+	/**	
 	 * Constructor vacío
 	 */
-	public Trabajador() {
-	}
+	public Trabajador() {}
 
 	/**
 	 * @param nombre
@@ -104,5 +103,11 @@ public class Trabajador {
 	 */
 	public void setFechaInicio(Date fechaInicio) {
 		this.fechaInicio = fechaInicio;
+	}
+
+	@Override
+	public String toString() {
+		return "Trabajador [nombre=" + nombre + ", apellidos=" + apellidos + ", nif=" + nif + ", departamento="
+				+ departamento + ", fechaInicio=" + fechaInicio + "]";
 	}
 }
