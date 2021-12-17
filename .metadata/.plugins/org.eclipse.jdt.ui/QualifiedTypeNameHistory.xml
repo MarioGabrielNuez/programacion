@@ -2,9 +2,12 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="ExtFunc"/>
     <fullyQualifiedTypeName name="Trabajador"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.zip.DataFormatException"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="Transferencia"/>
     <fullyQualifiedTypeName name="Cliente"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.x.protobuf.MysqlxDatatypes.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="ConexionPrueba"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>
