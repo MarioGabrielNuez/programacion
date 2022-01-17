@@ -64,7 +64,6 @@ public class MainPruebas {
 			statement.setString(7, "Timberwolves");
 			statement.execute();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			System.out.println("Error al insertar");
 		}
 	}
