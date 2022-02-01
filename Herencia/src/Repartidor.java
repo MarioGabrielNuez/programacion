@@ -1,3 +1,4 @@
+import Padre.Empleado;
 
 public class Repartidor extends Empleado {
 	private String zona;

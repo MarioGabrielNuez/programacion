@@ -46,5 +46,4 @@ INDEX VERSION 1.131+C:\Users\mario\Documents\GitHub\MarioGabIFP\programacion\.me
 3032367733.index
 2934801734.index
 1728776425.index
-1497578568.index
 2783125703.index
