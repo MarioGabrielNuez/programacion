@@ -1,0 +1,6 @@
+Se requere de una aplicacion que gestione una lista de la compra y permita extraerlo a un fichero.
+
+Requisitos:
+1. Crear Clases y Objetos
+2. Añadir elementos a la base de datos
+3. Una vez añadidos todos los elementos exportar la lista de la compra a un fichero TXT 
